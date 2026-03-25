@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # --- 1. UI & COLORS ---
-st.set_page_config(page_title="Pro-Scout v40.0", layout="wide")
+st.set_page_config(page_title="YUSUFBABAPRO", layout="wide")
 
 TEAM_COLORS = {
     'Galatasaray': ('#890e10', '#fdb912'), 'Fenerbahce': ('#002e5d', '#fbda17'), 
