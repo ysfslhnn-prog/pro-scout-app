@@ -70,7 +70,7 @@ def engine_v40(ev_b, dep_b, h_ev_b, h_dep_b, ev_f, dep_f):
     return ev_w, ber, dep_w, u15, u25, kg, htft, full_skr[:8], full_skr[10:13]
 
 # --- 3. UI ASSEMBLY ---
-st.markdown("<h2 style='text-align:center;'>🏆 PRO-SCOUT MASTER v40.0</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align:center;'>🏆 YUSUFBABAPRO</h2>", unsafe_allow_html=True)
 
 lig_box = st.selectbox("🌍 LİG SEÇİN", list(LIGLER.keys()))
 res = master_load_v40(LIGLER[lig_box])
