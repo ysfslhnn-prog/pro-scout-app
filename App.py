@@ -22,7 +22,25 @@ TEAM_COLORS = {
     'Liverpool': ('#c8102e', '#f6eb61'), 'Bayern Munich': ('#dc052d', '#0066b2')
 }
 
-LIGLER = {'Türkiye (Süper Lig)': 'T1', 'İngiltere (Premier Lig)': 'E0', 'İspanya (La Liga)': 'SP1', 'Almanya (Bundesliga)': 'D1', 'İtalya (Serie A)': 'I1', 'Fransa (Ligue 1)': 'F1', 'Hollanda (Eredivisie)': 'N1'}
+LIGLER = {
+    'Türkiye (Süper Lig)': 'T1',
+    'Türkiye (1. Lig)': 'T2', # Not: Veri varsa çekilir
+    'İngiltere (Premier Lig)': 'E0',
+    'İngiltere (Championship)': 'E1',
+    'İngiltere (League 1)': 'E2',
+    'İngiltere (League 2)': 'E3',
+    'İspanya (La Liga)': 'SP1',
+    'İspanya (Segunda)': 'SP2',
+    'Almanya (Bundesliga 1)': 'D1',
+    'Almanya (Bundesliga 2)': 'D2',
+    'İtalya (Serie A)': 'I1',
+    'İtalya (Serie B)': 'I2',
+    'Fransa (Ligue 1)': 'F1',
+    'Fransa (Ligue 2)': 'F2',
+    'Hollanda (Eredivisie)': 'N1',
+    'Belçika (Jupiler Pro)': 'B1',
+    'Portekiz (Primeira Liga)': 'P1'
+}
 
 # --- 2. ENGINE & DATA (3 YILLIK) ---
 @st.cache_data
