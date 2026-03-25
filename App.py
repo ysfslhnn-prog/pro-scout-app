@@ -1,6 +1,6 @@
 #PRO-SCOUT v54 PREMIUM
 
-Ultra Professional Football Prediction Dashboard
+#Ultra Professional Football Prediction Dashboard
 
 import streamlit as st import pandas as pd import numpy as np from sklearn.preprocessing import LabelEncoder from xgboost import XGBRegressor from scipy.stats import poisson import matplotlib.pyplot as plt
 
